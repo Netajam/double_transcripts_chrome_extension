@@ -1,0 +1,6 @@
+<div class="modal">
+    <h2>Add/Update Transcript</h2>
+    <textarea id="transcript-text" placeholder="Paste your transcript here..."></textarea>
+    <button id="save-transcript" onclick="window.youtubeTranscriptExtension.saveTranscript(document.getElementById('transcript-text').value); this.closest('.modal').remove();">Save</button>
+    <button id="close-modal" onclick="this.closest('.modal').remove();">Close</button>
+  </div>
